@@ -8,6 +8,7 @@
     outline: none;
     border: none;
     text-decoration: none;
+    overflow: hidden;
     text-transform: capitalize;
     transition: .2s linear;
 }
@@ -28,7 +29,6 @@ $box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 
 html{
     font-size: 62.5%;
-    // overflow: hidden;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
